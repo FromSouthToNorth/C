@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 
-void exchange(int*, int*);
+void exchange(int *, int *);
 
 int main() {
 
