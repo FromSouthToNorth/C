@@ -1,3 +1,0 @@
-"E:\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\platinum.dir/objects.a
-E:\mingw-w64\mingw64\bin\ar.exe qc CMakeFiles\platinum.dir/objects.a @CMakeFiles\platinum.dir\objects1.rsp
-E:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\platinum.dir/objects.a -Wl,--no-whole-archive -o platinum.exe -Wl,--out-implib,libplatinum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\platinum.dir\linklibs.rsp
