@@ -5,12 +5,12 @@
 #include <stdio.h>
 #include <malloc.h>
 
-typedef struct ListNode {
+struct ListNode {
     int val;
     struct ListNode *next;
-} ListNode;
+};
 
-ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
+struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     struct ListNode *head = NULL;
     struct ListNode *tail = NULL;
 
@@ -62,7 +62,7 @@ int main() {
     l2->next->next = malloc(sizeof(struct ListNode));
     l2->next->next->val = 5;
     l2->next->next->next = NULL;
-    ListNode *ans = addTwoNumbers(l1, l2);
+    struct ListNode *ans = addTwoNumbers(l1, l2);
 
     while (ans) {
         printf("%d ", ans->val);
