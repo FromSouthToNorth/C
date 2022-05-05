@@ -26,13 +26,10 @@ int main() {
  */
 void bubble_sort (int* nums ,int numsSize)  {
     int i, j;
-    _Bool exchanged = true;
-    for (i = 0; exchanged && i < numsSize - 1; ++i) {
-        exchanged = false;
+    for (i = 0; i < numsSize - 1; ++i) {
         for (j = 0; j < numsSize - 1 - i; ++j) {
             if (nums[j] > nums[j + 1]) {
                 swap(nums, j, j + 1);
-                exchanged = true;
             }
         }
     }
