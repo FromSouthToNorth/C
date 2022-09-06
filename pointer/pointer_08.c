@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 void f(int **q) {
     *q = (int *)malloc(sizeof(int));

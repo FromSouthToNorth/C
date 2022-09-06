@@ -2,7 +2,7 @@
 // Created by bw on 2022/5/5.
 //
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 
 struct Students {

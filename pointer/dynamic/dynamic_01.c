@@ -2,7 +2,7 @@
 // Created by bw on 2022/4/22.
 //
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 void f(int *q);
 

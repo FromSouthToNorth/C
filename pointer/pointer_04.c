@@ -2,8 +2,6 @@
 // Created by bw on 2022/4/19.
 //
 
-#include <stdio.h>
-
 int main() {
 
     int *p;

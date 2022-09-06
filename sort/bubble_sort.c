@@ -2,7 +2,6 @@
 // Created by bw on 2022/4/20.
 //
 #include <stdio.h>
-#include <stdbool.h>
 
 void bubble_sort (int* nums, int numsSize);
 
