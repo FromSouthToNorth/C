@@ -38,7 +38,7 @@ endif()
 
 ## Add subdirectories containing CMakeLists.txt
 # to configure and compile files in the respective folders
-add_subdirectory(datastrcures)
+add_subdirectory(datastructures)
 add_subdirectory(enum)
 add_subdirectory(leetcode)
 add_subdirectory(pointer)
